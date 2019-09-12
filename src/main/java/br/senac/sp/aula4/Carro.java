@@ -52,14 +52,14 @@ public class Carro {
         this.velocidadeAtual = velocidadeAtual;
     }
     
-     public void acelelar(){
+     public void acelerar(){
         this.velocidadeAtual+=10;
         if(this.velocidadeAtual >200){
            this.velocidadeAtual=200;
         }
     }
     
-    public void acelelar(int numVelocidade){
+    public void acelerar(int numVelocidade){
         this.velocidadeAtual+=numVelocidade;
         
         if(this.velocidadeAtual >200){
